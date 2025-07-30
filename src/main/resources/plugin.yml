@@ -1,0 +1,10 @@
+name: DDosTool
+version: '${version}'
+main: paper.plugin.ddostool.DDosTool
+commands:
+  dos:
+    description: 'dos attacks websites, single-threaded'
+    usage: '/dos <url> <requestcount>'
+  ddos:
+    description: ' ddos attacks websites, multi-threaded'
+    usage: '/ddos <url> <requestcount> <threadcount>'
